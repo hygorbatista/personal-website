@@ -1,0 +1,131 @@
+body {
+    color: white;
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+.minha-foto {
+  width: 150;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #4169E1;
+}
+
+.minha-foto:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.center {
+text-align: center;
+}
+
+h1 {
+    color: #4169E1;
+}
+
+.sobre-mim {
+  margin: 40px;       
+}
+
+h3 {
+    color: #4169E1;
+}
+
+.foto-icone-git {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+}
+
+.foto-icone-link {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+}
+
+footer {
+display: flex;
+justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: -18px;
+}
+
+nav a:hover {
+    color: #4169E1;
+    transition: 0.5s;
+}
+
+.projetos table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 16px; 
+}
+
+.projetos th, .projetos td { 
+  border: 1px solid #333; 
+  padding: 12px; 
+  text-align: left; 
+}
+
+.projetos thead { 
+  background: #111a; 
+}
+
+.projetos caption 
+{ margin-bottom: 8px; 
+  font-weight: 600; 
+}
+
+.contatos { 
+text-align: center;
+}
+
+.contatos form { 
+  display: grid; 
+  gap: 12px; 
+  max-width: 520px; 
+  margin: 0 auto;}
+
+.contatos input, .contatos textarea, .contatos select {
+  background: #0b0b0b; 
+  color: #fff; 
+  border: 1px solid #333; 
+  padding: 10px; 
+  border-radius: 8px;
+}
+.contatos button {
+  padding: 10px 16px; 
+  border: 0; 
+  border-radius: 8px; 
+  background: #4169E1; 
+  color: #fff; 
+  cursor: pointer;
+}
+
+.contatos button:hover {
+  background: #1E3A8A;   
+  transition: background 0.3s;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
