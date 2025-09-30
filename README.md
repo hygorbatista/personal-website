@@ -16,10 +16,9 @@ O objetivo era criar um site simples utilizando **HTML e CSS**, aplicando concei
 ---
 
 ## 🚀 Como visualizar
-1. Baixe este repositório ou clone com:
-   ```bash
-   git clone https://github.com/seu-usuario/portfolio.git
-
+1. Baixe este repositório ou acesse com:
+   (https://hygorbatista.github.io/personal-website/)
+   
 Estrutura do Projeto: 
 
 ├── index.html        # Página inicial (Sobre mim)
